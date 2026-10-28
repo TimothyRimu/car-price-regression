@@ -26,6 +26,8 @@ A random forest is wrong by about 1,500 on a typical car, against about 5,900 fo
 - Lasso does worse than ridge here; I did not tune it further.
 
 ## Run it
+
+A notebook version, [`car_price_regression.ipynb`](car_price_regression.ipynb), walks through the same analysis step by step.
 ```
 pip install pandas numpy scikit-learn
 python analysis.py              # reads data/CarPrice.csv
